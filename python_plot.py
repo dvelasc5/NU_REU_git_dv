@@ -10,10 +10,10 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 t = np.linspace(0,2*np.pi,100)
-plt.plot(t, np.cos(t), label="David's Graph")
+plt.plot(t, np.exp(t), label="Nik's Graph")
 plt.xlabel("t [radians]")
-plt.ylabel("cos(t)")
+plt.ylabel("exp(t)")
 plt.xlim(0,2*np.pi)
-plt.title("David's Awesome Cosine Graph")
+plt.title("Nik's Even Better Exponential Graph")
 plt.legend()
 plt.show()
